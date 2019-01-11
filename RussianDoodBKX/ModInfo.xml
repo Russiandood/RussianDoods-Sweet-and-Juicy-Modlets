@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RussianDood Changes XP From Zomberts" />
+		<Description value="Changed the XP imbalance for the zombie and animal kills. Adds a new Loot drop with a lower tier loot table, but changes the rate." />
+		<Author value="RussianDood" />
+		<Version value="1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

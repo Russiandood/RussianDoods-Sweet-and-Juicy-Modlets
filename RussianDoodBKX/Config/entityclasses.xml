@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+
+	<!--	Passive Animals 	-->
+	
+	
+	
+	<!--Rabbit-->
+	<set xpath="/entity_classes/entity_class[@name='animalRabbit']/property[@name='ExperienceGain']/@value">500</set>							<!--	From 173 XP, set high cause these bastards are hard to kill	-->
+	<!--Chicken-->
+	<set xpath="/entity_classes/entity_class[@name='animalChicken']/property[@name='ExperienceGain']/@value">500</set>							<!--	From 173 XP, set high cause these bastards are hard to kill	-->
+	<!--Stag/Doe-->
+	<set xpath="/entity_classes/entity_class[@name='animalStag']/property[@name='ExperienceGain']/@value">400</set>								<!-- 	From 327 XP -->
+	
+	
+	
+	<!--	Hostile/Zombie Animals		-->
+	
+	
+	
+	<!--Snake-->
+	<set xpath="/entity_classes/entity_class[@name='animalSnake']/property[@name='ExperienceGain']/@value">300</set>							<!--	From 170 XP, set higher cause these assholes are vile	-->
+	<!--Wolf, Boar, Zombie Vulture, Zombie Dog-->
+	<set xpath="/entity_classes/entity_class[@name='animalTemplateHostile']/property[@name='ExperienceGain']/@value">600</set>					<!--	From 550 XP	-->
+	<!--Radiated Zombie Vulture-->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieVultureRadiated']/property[@name='ExperienceGain']/@value">1000</set>			<!--	From 900 XP	-->
+	<!--Bear-->
+	<set xpath="/entity_classes/entity_class[@name='animalBear']/property[@name='ExperienceGain']/@value">3200</set>							<!--	From 800 XP, 800HP * 4XP	-->
+	<!--Dire Wolf-->
+	<set xpath="/entity_classes/entity_class[@name='animalDireWolf']/property[@name='ExperienceGain']/@value">3200</set>						<!--	From 800 XP, 800HP * 4XP	-->
+	<!--Zombie Bear-->
+	<set xpath="/entity_classes/entity_class[@name='animalZombieBear']/property[@name='ExperienceGain']/@value">4000</set>						<!--	From 800 XP, 1000HP * 4XP	-->
+	
+	
+	
+	<!--	ZOMBERTS/ZOMBALINAS, base XP increase to 600, base health is 150	-->
+	
+	
+	
+	<!--Base XP Template, changes the following ZOMBERTS/ZOMBALINAS
+	Screamer 				(The Zombalina that looks like she came from "The Ring")
+	Crawling Steve 			(The shirtless guy)
+	Arlene 					(The brown dress Zombalina)
+	Lab 					(The scientist Zombalina)
+	Darlene 				(Long sleeve & pants Zombalina)
+	Marlene 				(Tank top & shorts Zombalina)
+	Nurse Zombalina
+	Burnt Zombert
+	Cheerleader Zombalina
+	Stripper Zombalina
+	Boe 					(The Mr. Clean looking Zombert)
+	Joe 					(The short sleeve & shorts Zombert)
+	Yo 						(The long sleeve & pants Zombert)
+	Steve 					(The shirtless & spactic Zomebert)
+	Business Man Zombert
+	Spider Zombert
+	Hazmat Zombert
+	Old Timer 				(The Cowboy Zombert)
+	Farmer Zombert
+	-->
+	<set xpath="/entity_classes/entity_class[@name='zombieTemplateMale']/property[@name='ExperienceGain']/@value">600</set>						<!--	From 550 XP		-->
+	
+	<!--Utility Worker Zombert-->
+	<append xpath="/entity_classes/entity_class[@name='zombieUtilityWorker']"><property name="ExperienceGain" value="680"/></append>			<!--	From 550 XP, Base + (20PDR * 4XP)	-->
+	<!-- Skateboarder-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarder']/property[@name='ExperienceGain']/@value">600</set>						<!--	From 550 XP		-->
+	<!-- Fat Mama Zombalina-->
+	<append xpath="/entity_classes/entity_class[@name='zombieFemaleFat']"><property name="ExperienceGain" value="800"/></append>				<!--	From 550 XP, 200HP * 4XP	-->
+	<!--Football Player-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFootballPlayer']/property[@name='ExperienceGain']/@value">1000</set>					<!--	From 700 XP, 250HP * 4XP	-->
+	<!--Moe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieMoe']/property[@name='ExperienceGain']/@value">1000</set>								<!--	From 800 XP, 250HP * 4XP	-->
+	<!--Fat Cop-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCop']/property[@name='ExperienceGain']/@value">1000</set>							<!--	From 800 XP, 250HP * 4XP	-->
+	<!--Biker-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBiker']/property[@name='ExperienceGain']/@value">1200</set>							<!--	From 800 XP, (280HP * 4XP) + (20PDR * 4XP)	-->
+	<!--Lumber Jack-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSnow']/property[@name='ExperienceGain']/@value">1200</set>							<!--	From 800 XP, 300HP * 4XP	-->
+	<!--Fat Hawaiian-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiian']/property[@name='ExperienceGain']/@value">1200</set>						<!--	From 800 XP, 300HP * 4XP	-->
+		
+	
+	
+	<!--	FERAL ZOMBERTS/ZOMBALINAS, base XP increased to 950, base health is 237		-->
+	
+
+	
+	<!--Feral Screamer-->
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerFeral']/property[@name='ExperienceGain']/@value">950</set>					<!--	From 700 XP	-->
+	<!--Feral Crawling Steve-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveCrawlerFeral']/property[@name='ExperienceGain']/@value">950</set>				<!--	From 700 XP	-->
+	<!--Feral Arlene-->
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneFeral']/property[@name='ExperienceGain']/@value">950</set>						<!--	From 700 XP	-->
+	<!--Feral Lab Zombalina-->
+	<set xpath="/entity_classes/entity_class[@name='zombieLabFeral']/property[@name='ExperienceGain']/@value">950</set>							<!--	From 700 XP	-->
+	<!--Feral Darlene-->
+	<set xpath="/entity_classes/entity_class[@name='zombieDarleneFeral']/property[@name='ExperienceGain']/@value">950</set>						<!--	From 700 XP	-->
+	<!--Feral Marlene-->
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneFeral']/property[@name='ExperienceGain']/@value">950</set>						<!--	From 700 XP	-->
+	<!--Feral Nurse-->
+	<set xpath="/entity_classes/entity_class[@name='zombieNurseFeral']/property[@name='ExperienceGain']/@value">950</set>						<!--	From 700 XP	-->
+	<!--Feral Cheerleader-->
+	<set xpath="/entity_classes/entity_class[@name='zombieCheerleaderFeral']/property[@name='ExperienceGain']/@value">950</set>					<!--	From 700 XP	-->
+	<!--Feral Stripper-->
+	<set xpath="/entity_classes/entity_class[@name='zombieStripperFeral']/property[@name='ExperienceGain']/@value">950</set>					<!--	From 700 XP	-->
+	<!--Feral Boe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBoeFeral']/property[@name='ExperienceGain']/@value">1140</set>						<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Joe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieJoeFeral']/property[@name='ExperienceGain']/@value">1140</set>						<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Yo-->
+	<set xpath="/entity_classes/entity_class[@name='zombieYoFeral']/property[@name='ExperienceGain']/@value">1140</set>							<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Steve-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveFeral']/property[@name='ExperienceGain']/@value">1140</set>						<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Business Man-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBusinessManFeral']/property[@name='ExperienceGain']/@value">1140</set>				<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Spider-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderFeral']/property[@name='ExperienceGain']/@value">1140</set>						<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Utility Worker-->
+	<set xpath="/entity_classes/entity_class[@name='zombieUtilityWorkerFeral']/property[@name='ExperienceGain']/@value">1220</set>				<!--	From 700 XP, (285HP * 4XP) + (20PDR * 4XP)	-->
+	<!--Feral Soldier-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierFeral']/property[@name='ExperienceGain']/@value">1340</set>					<!--	From 1000 XP, (285HP * 4XP) + (50PDR * 4XP)	-->
+	<!--Feral Skateboarder-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderFeral']/property[@name='ExperienceGain']/@value">1140</set>				<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Old Timer-->
+	<set xpath="/entity_classes/entity_class[@name='zombieOldTimerFeral']/property[@name='ExperienceGain']/@value">1140</set>					<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Farmer-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFarmerFeral']/property[@name='ExperienceGain']/@value">1140</set>						<!--	From 700 XP, 285HP * 4XP	-->
+	<!--Feral Fat Mama Zombalina-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='ExperienceGain']/@value">1520</set>					<!--	From 700 XP, 380HP * 4XP	-->
+	<!--Feral Moe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieMoeFeral']/property[@name='ExperienceGain']/@value">1900</set>						<!--	From 1000 XP, 475HP * 4XP	-->
+	<!--Feral Fat Cop-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFatCopFeral']/property[@name='ExperienceGain']/@value">1900</set>						<!--	From 1000 XP, 475HP * 4XP	-->
+	<!--Feral Wight-->
+	<set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='ExperienceGain']/@value">2120</set>						<!--	From 1000 XP, 530HP * 4XP	-->
+	<!--Feral Biker-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBikerFeral']/property[@name='ExperienceGain']/@value">2120</set>						<!--	From 1000 XP, 530HP * 4XP	-->
+	<!--Feral Lumber Jack-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSnowFeral']/property[@name='ExperienceGain']/@value">2280</set>						<!--	From 1000 XP, 570HP * 4XP	-->
+	<!--Feral Fat Hawaiian-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFatHawaiianFeral']/property[@name='ExperienceGain']/@value">2280</set>				<!--	From 1000 XP, 570HP * 4XP	-->
+	<!--Feral Wight-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatFeral']/property[@name='ExperienceGain']/@value">2120</set>					<!--	From 1000 XP, 530HP * 4XP	-->
+	
+	
+	
+	<!--	RADIATED ZOMBERTS/ZOMBALINAS, Base XP increase to 1800, base health is 451		-->
+	
+	
+	
+	<!--Radiated Screamer-->
+	<set xpath="/entity_classes/entity_class[@name='zombieScreamerRadiated']/property[@name='ExperienceGain']/@value">1800</set>				<!--	From 900 XP		-->
+	<!--Radiated Arlene-->
+	<set xpath="/entity_classes/entity_class[@name='zombieArleneRadiated']/property[@name='ExperienceGain']/@value">1800</set>					<!--	From 900 XP		-->
+	<!--Radiated Lab Zombalina-->
+	<set xpath="/entity_classes/entity_class[@name='zombieLabRadiated']/property[@name='ExperienceGain']/@value">1800</set>						<!--	From 900 XP		-->
+	<!--Radiated Marlene-->
+	<set xpath="/entity_classes/entity_class[@name='zombieMarleneRadiated']/property[@name='ExperienceGain']/@value">1800</set>					<!--	From 900 XP		-->
+	<!--Radiated Cheerleader-->
+	<set xpath="/entity_classes/entity_class[@name='zombieCheerleaderRadiated']/property[@name='ExperienceGain']/@value">1800</set>				<!--	From 900 XP		-->
+	<!--Radiated Boe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBoeRadiated']/property[@name='ExperienceGain']/@value">2160</set>						<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Joe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieJoeRadiated']/property[@name='ExperienceGain']/@value">2160</set>						<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Yo-->
+	<set xpath="/entity_classes/entity_class[@name='zombieYoRadiated']/property[@name='ExperienceGain']/@value">2160</set>						<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Steve-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSteveRadiated']/property[@name='ExperienceGain']/@value">2160</set>					<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Spider-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSpiderRadiated']/property[@name='ExperienceGain']/@value">2160</set>					<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Soldier-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSoldierRadiated']/property[@name='ExperienceGain']/@value">2360</set>					<!--	From 1250 XP, 540HP * 4XP + (50PDR * 4XP)	-->
+	<!--Radiated Skateboarder-->
+	<set xpath="/entity_classes/entity_class[@name='zombieSkateboarderRadiated']/property[@name='ExperienceGain']/@value">2160</set>			<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Old Timer-->
+	<set xpath="/entity_classes/entity_class[@name='zombieOldTimerRadiated']/property[@name='ExperienceGain']/@value">2160</set>				<!--	From 900 XP, 540HP * 4XP	-->
+	<!--Radiated Fat Mama-->
+	<set xpath="/entity_classes/entity_class[@name='zombieFemaleFatRadiated']/property[@name='ExperienceGain']/@value">2880</set>				<!--	From 900 XP, 720HP * 4XP	-->
+	<!--Radiated Moe-->
+	<set xpath="/entity_classes/entity_class[@name='zombieMoeRadiated']/property[@name='ExperienceGain']/@value">3600</set>						<!--	From 900 XP, 900HP * 4XP	-->
+	<!--Radiated Wight-->
+	<set xpath="/entity_classes/entity_class[@name='zombieWightRadiated']/property[@name='ExperienceGain']/@value">4040</set>					<!--	From 900 XP, 1010HP * 4XP	-->
+	<!--Radiated Biker-->
+	<set xpath="/entity_classes/entity_class[@name='zombieBikerRadiated']/property[@name='ExperienceGain']/@value">4120</set>					<!--	From 900 XP, (1010HP * 4XP)	+ (20PDR * 4XP) -->
+	
+	
+	
+	<!--	Legendary/Boss ZOMBERTS/ZOMBALINAS/ANIMALS, Base XP increase to 1800		-->
+	
+	
+	
+	<!--Legendary Lab Zombalina-->
+	<append xpath="/entity_classes/entity_class[@name='legendaryZombieLab']"><property name="ExperienceGain" value="3600"/></append>			<!--	From 550 XP, (900HP * 4XP)	-->
+	<!--Legendary Business Man-->
+	<append xpath="/entity_classes/entity_class[@name='legendaryZombieBusinessMan']"><property name="ExperienceGain" value="3600"/></append>	<!--	From 550 XP, (900HP * 4XP)	-->
+	<!--Legendary Utility Worker-->
+	<append xpath="/entity_classes/entity_class[@name='legendaryZombieUtilityWorker']"><property name="ExperienceGain" value="3680"/></append>	<!--	From 550 XP, (900HP * 4XP) + (20PDR * 4XP)	-->
+	<!--Grace the boar-->
+	<set xpath="/entity_classes/entity_class[@name='animalBossGrace']/property[@name='ExperienceGain']/@value">3600</set>						<!--	From 1000 XP, (900HP * 4XP)	-->
+	
+	
+</configs>

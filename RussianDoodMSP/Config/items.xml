@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/items">
+		<item name="solarCellParts">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="DescriptionKey" value="solarCellPartsDesc"/>
+			<property name="CustomIcon" value="solarCellParts" />
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mplastics"/>
+			<property name="Stacknumber" value="20"/> <!-- STK resource -->
+			<property name="EconomicValue" value="1000"/>
+			<property name="SellableToTrader" value="false"/>
+		</item>
+		
+		<item name="solarPanelFrame">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="DescriptionKey" value="solarPanelFrameDesc"/>
+			<property name="CustomIcon" value="solarPanelFrame" />
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="EconomicValue" value="300"/>
+			<property name="SellableToTrader" value="false"/>
+		</item>
+		
+		<item name="solarPanelParts">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="DescriptionKey" value="solarPanelPartsDesc"/>
+			<property name="CustomIcon" value="solarPanelParts" />
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Material" value="Mglass"/>
+			<property name="Stacknumber" value="10"/> <!-- STK resource -->
+			<property name="SellableToTrader" value="false"/>
+		</item>	
+	</append>
+</configs>
+

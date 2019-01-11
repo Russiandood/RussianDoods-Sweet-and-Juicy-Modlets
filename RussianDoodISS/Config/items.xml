@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configs>
+	<!--	Increase to Ammunition/throwables  	-->
+	
+	<set xpath="/items/item[@name='ammo9mmBullet']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects 9mm, 44mag and 7.62mm -->
+	<set xpath="/items/item[@name='ammoShotgunShell']/property[@name='Stacknumber']/@value">500</set>					<!-- From stack size 250, affects Shotgun Shells -->
+	<set xpath="/items/item[@name='ammoShotgunSlug']/property[@name='Stacknumber']/@value">250</set>					<!-- From stack size 128, affects Shotgun Slugs -->
+	<set xpath="/items/item[@name='ammoBlunderbuss']/property[@name='Stacknumber']/@value">500</set>					<!-- From stack size 250, affects Blunderbuss ammo -->
+	<set xpath="/items/item[@name='ammoArrowStone']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 250, affects all Arrows -->
+	<set xpath="/items/item[@name='ammoCrossbowBoltStone']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 250, affects only Stone Bolts -->
+	<set xpath="/items/item[@name='ammoCrossbowBoltIron']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 250, affects all Bolts EXCEPT Stone Bolts -->
+	<set xpath="/items/item[@name='ammoDartSteel']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects Steel Darts -->
+	<set xpath="/items/item[@name='thrownAmmoPipeBomb']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 40, affects Pipe Bomb -->
+	<set xpath="/items/item[@name='thrownDynamite']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 40, affects Dynamite -->
+	<set xpath="/items/item[@name='thrownAmmoMolotovCocktail']/property[@name='Stacknumber']/@value">100</set>			<!-- From stack size 40, affects Molotov Cocktail -->
+	<set xpath="/items/item[@name='thrownAmmoFlare']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 40, affects Flares -->
+	<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">10000</set>						<!-- From stack size 1000, affects Gas Can -->
+	
+	<!--	Increase to Medical items	-->
+	
+	<set xpath="/items/item[@name='medicalAloeCream']/property[@name='Stacknumber']/@value">50</set>					<!-- From stack size 20, affects Aloe Cream -->
+	<set xpath="/items/item[@name='medicalBandage']/property[@name='Stacknumber']/@value">50</set>						<!-- From stack size 10, affects Bandages -->
+	<set xpath="/items/item[@name='medicalFirstAidBandage']/property[@name='Stacknumber']/@value">50</set>				<!-- From stack size 10, affects First Aid Bandages -->
+	<set xpath="/items/item[@name='medicalFirstAidKit']/property[@name='Stacknumber']/@value">25</set>					<!-- From stack size 5, affects First Aid Kits -->
+	<set xpath="/items/item[@name='medicalSplint']/property[@name='Stacknumber']/@value">50</set>						<!-- From stack size 10, affects Splints and Casts -->
+	<set xpath="/items/item[@name='drugVitamins']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Vitamins -->
+	<set xpath="/items/item[@name='drugPainkillers']/property[@name='Stacknumber']/@value">250</set>					<!-- From stack size 50, affects Pain Killers -->
+	<set xpath="/items/item[@name='drugHerbalAntibiotics']/property[@name='Stacknumber']/@value">100</set>				<!-- From stack size 50, affects Herbal Antibiotics -->
+	<set xpath="/items/item[@name='drugAntibiotics']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Antibiotics -->
+	<set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">100</set>		<!-- From stack size 10, affects Testosteron Extract -->
+	
+	<!--	Increase to Food	-->
+	
+	<set xpath="/items/item[@name='foodHoney']/property[@name='Stacknumber']/@value">100</set>							<!-- From stack size 10, affects Honey -->
+	<set xpath="/items/item[@name='foodCanBeef']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects all Canned food -->
+	<set xpath="/items/item[@name='foodCornOnTheCob']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Corn on the Cob -->
+	<set xpath="/items/item[@name='foodCornBread']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Corn Bread -->
+	<set xpath="/items/item[@name='foodMoldyBread']/property[@name='Stacknumber']/@value">250</set>						<!-- From stack size 50, affects Moldy Bread -->
+	<set xpath="/items/item[@name='foodShamSandwich']/property[@name='Stacknumber']/@value">250</set>					<!-- From stack size 50, affects ShamSandwich -->
+	<set xpath="/items/item[@name='foodCharredMeat']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Charred Meat -->
+	<set xpath="/items/item[@name='foodGrilledMeat']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Grilled Meat -->
+	<set xpath="/items/item[@name='foodBoiledMeat']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Boiled Meat -->
+	<set xpath="/items/item[@name='foodMeatStew']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Meat Stew -->
+	<set xpath="/items/item[@name='foodBakedPotato']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Baked Potato -->
+	<set xpath="/items/item[@name='foodBlueberryPie']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Blueberry Pie -->
+	<set xpath="/items/item[@name='foodEggBoiled']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Boiled Eggs -->
+	<set xpath="/items/item[@name='foodBaconAndEggs']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Bacon and Eggs -->
+	<set xpath="/items/item[@name='foodVegetableStew']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Vegetable Stew -->
+	<set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 250, affects Raw Meat -->
+	<set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 100, affects Rotting Flesh -->
+	
+	<!--	Increase to Crops	-->
+	
+	<set xpath="/items/item[@name='foodCropBlueberries']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Blueberry and Snowberry -->
+	<set xpath="/items/item[@name='foodCropCorn']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects Corn -->
+	<set xpath="/items/item[@name='foodCropGraceCorn']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Grace Corn -->
+	<set xpath="/items/item[@name='foodCropPotato']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Potato -->
+	<set xpath="/items/item[@name='foodCropMushrooms']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Mushroom -->
+	<set xpath="/items/item[@name='foodCropYuccaFruit']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 50, affects Yucca Fruit -->
+	<set xpath="/items/item[@name='resourceCropHopsFlower']/property[@name='Stacknumber']/@value">1000</set>			<!-- From stack size 500, affects Hops -->
+	<set xpath="/items/item[@name='resourceCropAloeLeaf']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Aloe -->
+	<set xpath="/items/item[@name='resourceCropChrysanthemumPlant']/property[@name='Stacknumber']/@value">1000</set>	<!-- From stack size 500, affects Chrysanthemum -->
+	<set xpath="/items/item[@name='resourceCropCottonPlant']/property[@name='Stacknumber']/@value">1000</set>			<!-- From stack size 500, affects Cotton -->
+	<set xpath="/items/item[@name='resourceCropGoldenrodPlant']/property[@name='Stacknumber']/@value">1000</set>		<!-- From stack size 500, affects Golden Rod -->
+	<set xpath="/items/item[@name='resourceCropCoffeeBeans']/property[@name='Stacknumber']/@value">1000</set>			<!-- From stack size 500, affects Coffee Beans -->
+
+	
+	<!--	Increase to Water, Drinks and their containers	-->
+	
+	<set xpath="/items/item[@name='drinkCanEmpty']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects Metal Can -->
+	<set xpath="/items/item[@name='drinkCanRiverWater']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 15, affects Can of Murky Water -->
+	<set xpath="/items/item[@name='drinkCanBoiledWater']/property[@name='Stacknumber']/@value">100</set>				<!-- From stack size 1, affects Can of Boiled Water -->
+	<set xpath="/items/item[@name='drinkJarEmpty']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects Empty Bottle -->
+	<set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Bottled Murky Water -->
+	<set xpath="/items/item[@name='drinkJarBoiledWater']/property[@name='Stacknumber']/@value">100</set>				<!-- From stack size 15, affects Bottled Water and Snowberry Juice -->
+	<set xpath="/items/item[@name='drinkJarYuccaJuice']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 15, affects Yucca Juice -->
+	<set xpath="/items/item[@name='drinkJarGoldenRodTea']/property[@name='Stacknumber']/@value">100</set>				<!-- From stack size 15, affects Golden Rod Tea -->
+	<set xpath="/items/item[@name='drinkJarRedTea']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 15, affects Red Tea, Yucca Cocktail, Mega Crush -->
+	<set xpath="/items/item[@name='drinkYuccaJuiceSmoothie']/property[@name='Stacknumber']/@value">100</set>			<!-- From stack size 15, affects Yucca Smoothie -->
+	<set xpath="/items/item[@name='drinkJarCoffee']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 15, affects Coffee -->
+	<set xpath="/items/item[@name='drinkJarBeer']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 15, affects Beer -->
+	<set xpath="/items/item[@name='drinkJarGrainAlcohol']/property[@name='Stacknumber']/@value">100</set>				<!-- From stack size 15, affects Grain Alcohol -->
+	<set xpath="/items/item[@name='drinkJarGrandpasMoonshine']/property[@name='Stacknumber']/@value">100</set>			<!-- From stack size 15, affects Grandpas Moonshine -->
+	<set xpath="/items/item[@name='drinkJarGrandpasAwesomeSauce']/property[@name='Stacknumber']/@value">100</set>		<!-- From stack size 15, affects Grandpas Awesome Sauce -->
+	<set xpath="/items/item[@name='drinkJarGrandpasLearningElixir']/property[@name='Stacknumber']/@value">100</set>		<!-- From stack size 15, affects Grandpas Learning Elixir -->
+	<set xpath="/items/item[@name='bucketEmpty']/property[@name='Stacknumber']/@value">25</set>							<!-- From stack size 1, affects Bucket -->
+	<set xpath="/items/item[@name='bucketRiverWater']/property[@name='Stacknumber']/@value">25</set>					<!-- From stack size 1, affects Bucket of Water -->
+	
+	<!--	Increase to Resources	-->
+	
+	<set xpath="/items/item[@name='resourceRockSmall']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Small Stone -->
+	<set xpath="/items/item[@name='resourceSnowBall']/property[@name='Stacknumber']/@value">10000</set>					<!-- From stack size 6000, affects Snowball -->
+	<set xpath="/items/item[@name='resourceYuccaFibers']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Plant Fibers -->
+	<set xpath="/items/item[@name='resourceWood']/property[@name='Stacknumber']/@value">10000</set>						<!-- From stack size 6000, affects Wood -->
+	<set xpath="/items/item[@name='resourceCrushedSand']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Crushed Sand -->
+	<set xpath="/items/item[@name='resourceIronFragment']/property[@name='Stacknumber']/@value">5000</set>				<!-- From stack size 1200, affects Raw Iron -->
+	<set xpath="/items/item[@name='resourceClayLump']/property[@name='Stacknumber']/@value">10000</set>					<!-- From stack size 6000, affects Clay Soil -->
+	<set xpath="/items/item[@name='resourceCoal']/property[@name='Stacknumber']/@value">10000</set>						<!-- From stack size 6000, affects Coal -->
+	<set xpath="/items/item[@name='resourcePotassiumNitratePowder']/property[@name='Stacknumber']/@value">10000</set>	<!-- From stack size 6000, affects Potassium Nitrate -->
+	<set xpath="/items/item[@name='resourceGunPowder']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 1000, affects Gun Powder -->
+	<set xpath="/items/item[@name='resourceForgedIron']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Forged Iron -->
+	<set xpath="/items/item[@name='resourceMetalPipe']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Metal Pipe -->
+	<set xpath="/items/item[@name='resourceForgedSteel']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Steel -->
+	<set xpath="/items/item[@name='resourceOilShale']/property[@name='Stacknumber']/@value">10000</set>					<!-- From stack size 6000, affects Oil Shale -->
+	<set xpath="/items/item[@name='resourceFemur']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 250, affects Bone -->
+	<set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 250, affects Leather -->
+	<set xpath="/items/item[@name='resourceAnimalFat']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Animal Fat -->
+	<set xpath="/items/item[@name='resourceTallow']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Tallow -->
+	<set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">1000</set>							<!-- From stack size 500, affects Old Cash -->
+	<set xpath="/items/item[@name='resourceGlue']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 500, affects Glue -->
+	<set xpath="/items/item[@name='resourceDuctTape']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Duct Tape -->
+	<set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">10000</set>					<!-- From stack size 1000, affects Cement -->
+	<set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 1000, affects Concrete Mix -->
+	<set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 250, affects Feather -->
+	<set xpath="/items/item[@name='resourceArrowHeadIron']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Iron Arrow Head -->
+	<set xpath="/items/item[@name='resourceArrowHeadSteelAP']/property[@name='Stacknumber']/@value">1000</set>			<!-- From stack size 500, affects Steel Arrow Head -->
+	<set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 250, affects Buckshot -->
+	<set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 500, affects Bullet Casing -->
+	<set xpath="/items/item[@name='resourceBulletCasingSteel']/property[@name='Stacknumber']/@value">1000</set>			<!-- From stack size 500, affects Steel Bullet Casing -->
+	<set xpath="/items/item[@name='resourceBulletTip']/property[@name='Stacknumber']/@value">1000</set>					<!-- From stack size 500, affects Bullet Tips -->
+	<set xpath="/items/item[@name='resourceRepairKit']/property[@name='Stacknumber']/@value">100</set>					<!-- From stack size 50, affects Repair Kit -->
+	<set xpath="/items/item[@name='resourceOil']/property[@name='Stacknumber']/@value">100</set>						<!-- From stack size 50, affects Oil -->
+	<set xpath="/items/item[@name='resourceSteelPolish']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 250, affects Steel Polish -->
+	<set xpath="/items/item[@name='resourcePaint']/property[@name='Stacknumber']/@value">10000</set>					<!-- From stack size 1000, affects Paint Can -->
+	<set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">50</set>					<!-- From stack size 5, affects Radiator -->
+	<set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">3000</set>				<!-- From stack size 1000, affects Cobblestone -->
+	
+	<!--	Increase to Duke's Coins	-->
+	
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">30000</set>						<!-- From stack size 20000 -->
+	
+	<!--	Increase to Scrap Materials	-->
+	
+	<set xpath="/items/item[@name='resourceScrapIron']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Scrap Iron -->
+	<set xpath="/items/item[@name='resourceScrapBrass']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Brass -->
+	<set xpath="/items/item[@name='resourceScrapLead']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Lead -->
+	<set xpath="/items/item[@name='resourceBrokenGlass']/property[@name='Stacknumber']/@value">10000</set>				<!-- From stack size 6000, affects Broken Glass -->
+	<set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 250, affects Cloth -->
+	<set xpath="/items/item[@name='resourcePaper']/property[@name='Stacknumber']/@value">1000</set>						<!-- From stack size 250, affects Paper -->
+	<set xpath="/items/item[@name='resourceMilitaryFiber']/property[@name='Stacknumber']/@value">1000</set>				<!-- From stack size 250, affects Military Fibers -->
+	
+</configs>

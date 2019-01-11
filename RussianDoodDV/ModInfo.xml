@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RussianDood Duke's Voucher" />
+		<Description value="Adds Vouchers that equal 1000 Duke Casino Coins"/>
+		<Author value="RussianDood" />
+		<Version value="1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

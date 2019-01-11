@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/recipes">
+		<recipe name="solarCellParts" count="1" tags="learnable" craft_area="chemistryStation">
+			<ingredient name="resourceSilverNugget" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="30"/>
+			<ingredient name="resourceGlue" count="10"/>
+			<ingredient name="resourceScrapIron" count="20"/>
+		</recipe>
+		
+		<recipe name="solarCellParts" count="2" tags="learnable" craft_area="chemistryStation">
+			<ingredient name="resourceGoldNugget" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="30"/>
+			<ingredient name="resourceGlue" count="10"/>
+			<ingredient name="resourceScrapIron" count="20"/>
+		</recipe>
+		
+		<recipe name="solarPanelParts" count="1" tags="learnable" craft_area="forge" craft_tool="toolAnvil" material_based="true">
+			<ingredient name="unit_glass" count="100"/>
+			<ingredient name="unit_lead" count="100"/>			
+			<ingredient name="unit_iron" count="100"/>
+			<ingredient name="unit_clay" count="40"/>
+		</recipe>
+		
+		<recipe name="solarPanelFrame" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="20"/>
+			<ingredient name="resourceDuctTape" count="2"/>
+		</recipe>
+		
+		<recipe name="solarCell" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="solarCellParts" count="2"/>
+			<ingredient name="solarPanelParts" count="1"/>
+			<ingredient name="solarPanelFrame" count="1"/>
+			<ingredient name="resourceElectricParts" count="4"/>
+		</recipe>
+		
+		<recipe name="solarbank" count="1" tags="learnable" craft_area="workbench">
+			<ingredient name="resourceForgedIron" count="60"/>
+			<ingredient name="resourceDuctTape" count="8"/>
+			<ingredient name="resourceElectricParts" count="16"/>
+			<ingredient name="resourceScrapPolymers" count="24"/>
+		</recipe>
+	</append>
+</configs>

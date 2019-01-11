@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<remove xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/effect_description[@level='5']"/>
+	<remove xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='5']"/>
+	<remove xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/effect_description[@level='4']"/>
+	<remove xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@level='4,5']"/>
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="4,5"
+			tags="resourceRocketTip,resourceRocketCasing,ammoRocketHE,ammoRocketFrag,batterybank"/>
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5" 
+			tags="solarCellParts,solarPanelParts,solarPanelFrame,solarCell,solarbank"/>
+			
+		<effect_description level="4" desc_base="Rocket Science! Now you can craft rockets\nand advanced fuels. Also, you can craft battery banks Can use tier 4 schematics."/>
+		<effect_description level="5" desc_base="Havesting the Sun! You can craft solar arrays and solar panel parts to make solar panels. Can use tier 5 schematics."/>
+	</append>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<remove xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group/effect_description[@level='3']"/>
+	<append xpath="/progression/attributes/attribute[@name='attIntellect']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="3" level="3,5" tags="Helping Hand Crafter"/>
+		<effect_description level="3" desc_base="Crafting is 20% faster. You can now craft the Helping Hand Crafter."/>
+	</append>
+</configs>

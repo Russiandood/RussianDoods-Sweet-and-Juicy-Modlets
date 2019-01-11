@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="RussianDood's Helping Hand" />
+		<Description value="Adds a crafting bench to queue up those long crafting items without sacrificing your personal crafting slots."/>
+		<Author value="RussianDood" />
+		<Version value="1.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']">
+		<item name="Duke's Voucher" count="8,12"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='55']">
+		<item name="Duke's Voucher" count="1,2" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='56']">
+		<item name="Duke's Voucher" count="1,1" prob="0.05"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='61']">
+		<item name="Duke's Voucher" count="4,8"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='70']">
+		<item name="Duke's Voucher" count="1,1" prob="1"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootcontainer[@id='71']">
+		<item name="Duke's Voucher" count="2,4" prob="1"/>
+	</append>
+</configs>
