@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="RussianDood Duke's Voucher" />
-		<Description value="Adds Vouchers that equal 1000 Duke Casino Coins"/>
+		<Description value="Adds Vouchers that equal 1000 Duke Casino Coins. Crafting TO DV is gated by 1st Barter level. No requirements for crafting FROM DV."/>
 		<Author value="RussianDood" />
 		<Version value="1.0" />
 		<Website value="http://7daystodie.com" />

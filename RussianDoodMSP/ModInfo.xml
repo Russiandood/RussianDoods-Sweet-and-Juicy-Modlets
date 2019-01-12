@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="RussianDood Makes Solar Panels" />
-		<Description value="Adds the ability to make solar panels that aren't the easiet to make."/>
+		<Description value="Adds the ability to make solar panels that aren't the easiet to make. Gated by Yeah Science 5."/>
 		<Author value="RussianDood" />
 		<Version value="1.0" />
 		<Website value="http://7daystodie.com" />

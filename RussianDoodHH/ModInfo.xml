@@ -2,7 +2,7 @@
 <xml>
 	<ModInfo>
 		<Name value="RussianDood's Helping Hand" />
-		<Description value="Adds a crafting bench to queue up those long crafting items without sacrificing your personal crafting slots."/>
+		<Description value="Adds a crafting bench to queue up those long crafting items without sacrificing your personal crafting slots. Gated by INT lvl 3."/>
 		<Author value="RussianDood" />
 		<Version value="1.0" />
 		<Website value="http://7daystodie.com" />
