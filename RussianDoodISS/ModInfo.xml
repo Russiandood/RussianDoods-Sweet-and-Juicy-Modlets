@@ -1,10 +1,10 @@
-<?xml version="1.1" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
 		<Name value="RussianDood Increases Stack Sizes" />
 		<Description value="Increases stack sizes of various resources and items without going overboard. Example, Scrap resources are increased to 10k from 6k." />
 		<Author value="RussianDood" />
-		<Version value="1.3" />
+		<Version value="1.4" />
 		<Website value="http://7daystodie.com" />
 	</ModInfo>
 </xml>
