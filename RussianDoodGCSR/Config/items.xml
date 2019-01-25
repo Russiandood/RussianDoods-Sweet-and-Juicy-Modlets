@@ -2,7 +2,7 @@
 
 <configs>
 	<append xpath="/items">
-		<item name="grasscutter">
+		<item name="Grass Cutter">
 			<property name="Tags" value="knife,melee,light,weapon,meleeWeapon"/>
 			<property name="DisplayType" value="melee"/>
 			<property name="HoldType" value="47"/>
@@ -25,24 +25,21 @@
 				<property name="Damage_type" value="Slashing"/>
 				<property name="Sphere" value="0.2"/>
 				<property name="Sound_start" value="swoosh"/>
-				<property name="ActionExp" value="0"/>
-				<property name="DamageBonus.glass" value="0"/>
-				<property name="DamageBonus.wood" value="0"/>
-				<property name="DamageBonus.earth" value="0"/>
-				<property name="DamageBonus.leaves" value="25"/>
-				<property name="DamageBonus.organic" value="25"/>
 				<property name="ToolCategory.harvestingTools" value="1" param1="1"/>
 			</property>
 
 			<effect_group name="Base Effects">
 				<passive_effect name="MaxRange" operation="base_set" value="120"/>
 				<passive_effect name="BlockRange" operation="base_set" value="50"/>
-				<passive_effect name="EntityDamage" operation="base_set" value="0,0"/>
-				<passive_effect name="BlockDamage" operation="base_set" value="0,0"/>
+				<passive_effect name="EntityDamage" operation="base_set" value="0"/>
+				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
+				<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="metal,earth,stone"/>
+				<passive_effect name="DamageModifier" operation="perc_set" value="100" tags="leaves,cloth,glass"/>
 				<passive_effect name="AttacksPerMinute" operation="base_set" value="300"/> <!-- This determins the swing speed. Default is 300 AttacksPerMinute or 5 swings/sec. -->
 				<passive_effect name="StaminaLoss" operation="base_set" value="1" tags="primary"/>
-				<passive_effect name="DegradationMax" operation="base_set" value="400,2000" tier="1,6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,0" tier="1,6"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="40,200" tier="1,6"/>
+				<passive_effect name="DegradationPerUse" operation="base_set" value=".1"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0" tier="1,6"/>	
 			</effect_group>
 		</item>
 	</append>

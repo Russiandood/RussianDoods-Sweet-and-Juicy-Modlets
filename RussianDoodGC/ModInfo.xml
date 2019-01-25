@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="RussianDood's Grass Cutter" />
-		<Description value="Adds a grass cutter into the game for fast cutting of grass. 10 block distant, Trust me this is plenty."/>
+		<Description value="Adds a grass cutter into the game for fast cutting of grass. Has a range of 10 blocks, trust me this is plenty."/>
 		<Author value="RussianDood" />
-		<Version value="1.0" />
+		<Version value="1.1" />
 		<Website value="http://7daystodie.com" />
 	</ModInfo>
 </xml>
