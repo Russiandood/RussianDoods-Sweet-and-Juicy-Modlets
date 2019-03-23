@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <configs>
-	<remove xpath="/items/item[@name='meleeToolHuntingKnifeSchematic']"/>
-	
+<!--
+=======================================================================================================
+Adds Dismember to Hunting Knife
+=======================================================================================================
+-->
+	<append xpath="/items/item[@name='meleeToolHuntingKnife']/effect_group[@name='Base Effects']">
+		<passive_effect name="DismemberChance" operation="base_add" value=".03" tags="primary"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolHuntingKnife']/effect_group[@name='Power Attack']">
+		<passive_effect name="DismemberChance" operation="base_add" value=".03" tags="secondary"/>
+	</append>
+<!--
+=======================================================================================================
+Adds Dismember to Machete
+=======================================================================================================
+-->
+	<append xpath="/items/item[@name='meleeToolMachete']/effect_group[@name='Base Effects']">
+		<passive_effect name="DismemberChance" operation="base_add" value=".08" tags="primary"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolMachete']/effect_group[@name='Power Attack']">
+		<passive_effect name="DismemberChance" operation="base_add" value=".08" tags="secondary"/>
+	</append>
+<!--
+=======================================================================================================
+=============================================NEW ITEMS=================================================
+=======================================================================================================
+-->	
 	<append xpath="/items">
+<!--
+=======================================================================================================
+Tanto
+=======================================================================================================
+-->	
 		<item name="meleeTantoKnife">
 			<property name="CustomIcon" value ="TantoKnife"/>
 			<property name="DescriptionKey" value="meleeTantoKnifeDesc"/>
@@ -77,7 +107,11 @@
 			<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 			<property name="RepairExpMultiplier" value="5.5"/>
 		</item>
-	
+<!--
+=======================================================================================================
+Katana
+=======================================================================================================
+-->		
 		<item name="meleeKatanaSword">
 			<property name="CustomIcon" value ="KatanaSword"/>
 			<property name="DescriptionKey" value="meleeKatanaSwordDesc"/>
@@ -150,7 +184,11 @@
 				</triggered_effect>
 			</effect_group>
 		</item>
-		
+<!--
+=======================================================================================================
+Katana Parts
+=======================================================================================================
+-->			
 		<item name="partsKatanaBlade">
 			<property name="Extends" value="vehicleWheels"/>
 			<property name="DescriptionKey" value="partsKatanaBladeDesc"/>
@@ -188,77 +226,6 @@
 			<property name="Stacknumber" value="1"/> <!-- STK resource -->
 			<property name="EconomicValue" value="300"/>
 			<property name="SellableToTrader" value="false"/>
-		</item>
-	
-		<item name="meleeKatanaSwordRecipeSchematic">
-			<property name="Extends" value="unlockBookMaster"/>
-			<property name="DescriptionKey" value="meleeKatanaSwordRecipeSchematicDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="EconomicValue" value="500"/>
-			<property name="CustomIcon" value="KatanaBook"/>
-			<property class="Action0">
-				<requirement name="CVarCompare" cvar="meleeKatanaSword" operation="Equals" value="0"/>
-				<requirement name="CVarCompare" cvar="partsKatanaBlade" operation="Equals" value="0"/>
-				<requirement name="CVarCompare" cvar="partsKatanaHandle" operation="Equals" value="0"/>
-				<requirement name="CVarCompare" cvar="partsKatanaSpacer" operation="Equals" value="0"/>
-			</property>
-			<effect_group tiered="false">
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeKatanaSword" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="partsKatanaBlade" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="partsKatanaHandle" operation="set" value="1"/>
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="partsKatanaSpacer" operation="set" value="1"/>
-			</effect_group>
-		</item>
-		
-		<item name="meleeToolHuntingKnifeSchematic">
-			<property name="Extends" value="unlockBookMaster"/>
-			<property name="DescriptionKey" value="meleeToolHuntingKnifeSchematicDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="EconomicValue" value="500"/>
-			<property class="Action0">
-				<requirement name="CVarCompare" cvar="meleeToolHuntingKnife" operation="Equals" value="0"/>
-			</property>
-			<effect_group tiered="false">
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolHuntingKnife" operation="set" value="1"/>
-			</effect_group>
-		</item>
-		
-		<item name="meleeTantoKnifeSchematic">
-			<property name="CustomIcon" value="TantoBook"/>
-			<property name="Extends" value="unlockBookMaster"/>
-			<property name="DescriptionKey" value="meleeTantoKnifeSchematicDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="EconomicValue" value="500"/>
-			<property class="Action0">
-				<requirement name="CVarCompare" cvar="meleeTantoKnife" operation="Equals" value="0"/>
-			</property>
-			<effect_group tiered="false">
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeTantoKnife" operation="set" value="1"/>
-			</effect_group>
-		</item>
-		
-		<item name="meleeToolMacheteSchematic">
-			<property name="CustomIcon" value="MacheteBook"/>
-			<property name="Extends" value="unlockBookMaster"/>
-			<property name="DescriptionKey" value="meleeToolMacheteSchematicDesc"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="EconomicValue" value="500"/>
-			<property class="Action0">
-				<requirement name="CVarCompare" cvar="meleeToolMachete" operation="Equals" value="0"/>
-			</property>
-			<effect_group tiered="false">
-					<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeToolMachete" operation="set" value="1"/>
-			</effect_group>
-		</item>
-		
-		<item name="q_wayoftheblade">
-			<property name="Extends" value="challengeQuestMaster"/>
-			<property name="CustomIcon" value="challengeQuestMaster"/>
-			<property name="DescriptionKey" value="q_wayofthebladeDesc"/>
-			<property class="Action0">
-				<requirement name="CVarCompare" cvar="meleeKatanaSword" operation="Equals" value="0"/>
-				<property name="QuestGiven" value="training_wayoftheblade1"/>
-			</property>
 		</item>
 	</append>
 </configs>
