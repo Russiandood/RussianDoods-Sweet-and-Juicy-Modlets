@@ -1,8 +1,12 @@
 ﻿-RussianDoodABW
 meleeKatanaSword,items,Melee,New,Survivor's Katana,,,,,
-meleeKatanaSwordDesc,items,Melee,New,"Based off the famous Japanese Katana. Though not the same quality, it can compete with it fairly well!\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits.",,,,,
+meleeKatanaSwordDesc,items,Melee,New,"Based off the famous Japanese Katana. Though not the same quality, it can compete with it fairly well!\n\nHas a base 5% chance to dismember limbs and harvests a little better.\n\nRepair with Steel.",,,,,
 meleeTantoKnife,items,Melee,New,Tanto,,,,,
-meleeTantoKnifeDesc,items,Melee,New,"A Tanto was a very common knife for the Japanese. It never failed them and was of the upmost top quality of blades.\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits." ,,,,,
+meleeTantoKnifeDesc,items,Melee,New,"A Tanto was a very common knife for the Japanese. It never failed them and was of the upmost top quality of blades.\n\nHas a base 10% chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits." ,,,,,
+
+meleeToolHuntingKnifeDesc,items,Melee,KgNone,Great for slashing zombies and gutting animals for meat.\nHas a base 3% chance to dismember limbs.\nRepair with Forged Iron.,Idéal pour taillader des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombies aufzuschlitzen und Tiere auszuweiden.",,Genial para acuchillar zombis y destripar animales para conseguir comida.,
+meleeToolMacheteDesc,items,Melee,KgNone,Great for chopping zombie limbs off and gutting animals for meat.\nHas a base 8% chance to dismember limbs.\nRepair with Forged Steel.,Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.,
+
 partsKatanaBlade,items,Part,New,Katana Blade,,,,,
 partsKatanaHandle,items,Part,New,Katana Handle,,,,,
 partsKatanaSpacer,items,Part,New,Katana Spacer,,,,,
@@ -13,4 +17,4 @@ meleeTantoKnifeSchematicDesc,items,Book,New,"Learn how to craft the Tanto by rea
 meleeToolMacheteSchematic,items,Book,New,Machete Recipe,,,,,
 meleeToolMacheteSchematicDesc,items,Book,New,"Learn how to craft the Machete by reading this book.",,,,,
 q_wayoftheblade,items,Quest Note,New,Way of the Blade Note,,,,,
-q_wayofthebladeDesc,items,Quest Note,New,A mysterious note from a stranger. I don't know how I got it.,Un petit mot mystérieux provenant d'un étranger. Je ne sais pas comment je l'ai obtenu.,"Eine geheimnisvolle Notiz von einem Fremden. Ich weiß nicht, woher ich sie habe.",,Una nota misteriosa de un extraño. No sé cómo llegó a mí.,
+q_wayofthebladeDesc,items,Quest Note,New,"This starts the Way of the Blade Quest line. If you already know how to make the Katana, you can't read this",,,,,

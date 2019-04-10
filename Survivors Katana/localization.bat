@@ -124,7 +124,7 @@ copy "..\..\data\config\Localization.txt" LocalizationTEMP.txt
 copy "..\..\data\config\Localization - Quest.txt" LocalizationQuestTEMP.txt
 del "..\..\data\config\Localization.txt"
 del "..\..\data\config\Localization - Quest.txt"
-FINDSTR /v "meleeKatanaSword partsKatana meleeTantoKnife meleeToolMacheteSchematic q_wayoftheblade -RussianDoodABW" LocalizationTEMP.txt > "../../data/config/Localization.txt"
+FINDSTR /v "meleeKatanaSword partsKatana meleeTantoKnife meleeToolMacheteSchematic q_wayoftheblade meleeToolHuntingKnifeDesc meleeToolMacheteDesc -RussianDoodABW" LocalizationTEMP.txt > "../../data/config/Localization.txt"
 FINDSTR /v "training_wayoftheblade -RussianDoodABW" LocalizationQuestTEMP.txt > "../../data/config/Localization - Quest.txt"
 type localization.txt >> "../../data/config/Localization.txt"
 type "localization - Quest.txt" >> "../../data/config/Localization - Quest.txt"

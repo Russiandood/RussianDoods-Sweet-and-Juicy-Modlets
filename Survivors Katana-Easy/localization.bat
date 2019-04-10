@@ -109,7 +109,7 @@ goto start
 IF EXIST "Localization.txt" copy "..\..\data\config\Localization.txt" "..\..\data\config\Localization.txt.bak"
 copy "..\..\data\config\Localization.txt" LocalizationTEMP.txt
 del "..\..\data\config\Localization.txt"
-FINDSTR /v "meleeKatanaSword partsKatana meleeTantoKnife perkHammerForgeRank3 perkHammerForgeRank5 -RussianDoodABW" LocalizationTEMP.txt > "../../data/config/Localization.txt"
+FINDSTR /v "meleeKatanaSword partsKatana meleeTantoKnife perkHammerForgeRank3 perkHammerForgeRank5 meleeToolHuntingKnifeDesc meleeToolMacheteDesc -RussianDoodABW" LocalizationTEMP.txt > "../../data/config/Localization.txt"
 type localization.txt >> "../../data/config/Localization.txt"
 del "LocalizationTEMP.txt"
 echo Finished

@@ -3,6 +3,10 @@ meleeKatanaSword,items,Melee,New,Survivor's Katana,,,,,
 meleeKatanaSwordDesc,items,Melee,New,"Based off the famous Japanese Katana. Though not the same quality, it can compete with it fairly well!\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits.",,,,,
 meleeTantoKnife,items,Melee,New,Tanto,,,,,
 meleeTantoKnifeDesc,items,Melee,New,"A Tanto was a very common knife for the Japanese. It never failed them and was of the upmost top quality of blades.\n\nHas a base 10% base chance to dismember limbs and harvests a little better.\n\nRepair with Repair Kits." ,,,,,
+
+meleeToolHuntingKnifeDesc,items,Melee,KgNone,Great for slashing zombies and gutting animals for meat.\nHas a base 3% chance to dismember limbs.\nRepair with Forged Iron.,Idéal pour taillader des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombies aufzuschlitzen und Tiere auszuweiden.",,Genial para acuchillar zombis y destripar animales para conseguir comida.,
+meleeToolMacheteDesc,items,Melee,KgNone,Great for chopping zombie limbs off and gutting animals for meat.\nHas a base 8% chance to dismember limbs.\nRepair with Forged Steel.,Idéale pour démembrer des zombies et étriper des animaux pour leur viande.,"Eignet sich prima dafür, Zombiegliedmaßen abzuschlagen und Tiere auszuweiden.",,Excelente para cortarles las extremidades a los zombis y destripar animales para conseguir carne.,
+
 partsKatanaBlade,items,Part,New,Katana Blade,,,,,
 partsKatanaHandle,items,Part,New,Katana Handle,,,,,
 partsKatanaSpacer,items,Part,New,Katana Spacer,,,,,

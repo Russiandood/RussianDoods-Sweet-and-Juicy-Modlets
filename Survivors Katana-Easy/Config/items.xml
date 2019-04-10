@@ -42,7 +42,7 @@ Tanto
 			<property name="HoldType" value="36"/>
 			<property name="Meshfile" value="#@modfolder:Resources/TantoKnife.unity3d?TantoKnife.prefab"/>
 			<property name="Material" value="Mmetal"/>
-			<property name="RepairTools" value="resourceRepairKit"/>
+			<property name="RepairTools" value="resourceForgedSteel"/>
 			<property name="DegradationBreaksAfter" value="false"/>
 			<property name="EconomicValue" value="600"/>
 			<property name="SoundJammed" value="ItemNeedsRepair"/>
